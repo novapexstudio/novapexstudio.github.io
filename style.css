@@ -64,6 +64,7 @@ nav a:hover {
 /* ===== Hero Section ===== */
 .hero {
     height: 100vh;
+    padding-top: 120px;
     background: linear-gradient(rgba(31,58,99,0.85), rgba(31,58,99,0.85)), url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d');
     background-size: cover;
     background-position: center;
