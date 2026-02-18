@@ -141,6 +141,22 @@ nav a:hover {
     </div>
 </section>
 
+<section class="testimonials">
+    <div class="container">
+        <h2 data-aos="fade-up">What Clients Say</h2>
+
+        <div class="testimonial-box" data-aos="fade-up" data-aos-delay="200">
+            <p>"NOVAPEX STUDIO completely transformed our brand identity. Our business looks premium and professional now."</p>
+            <h4>— Sarah K., Startup Founder</h4>
+        </div>
+
+        <div class="testimonial-box" data-aos="fade-up" data-aos-delay="400">
+            <p>"Creative, fast, and strategic. The designs helped us increase engagement instantly."</p>
+            <h4>— David M., Marketing Director</h4>
+        </div>
+    </div>
+</section>
+
 
 /* ===== Contact ===== */
 .contact {
