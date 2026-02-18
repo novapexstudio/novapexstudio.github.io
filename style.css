@@ -26,15 +26,26 @@ section {
 }
 
 /* ===== Navbar ===== */
+/* ===== Navbar ===== */
 nav {
     position: fixed;
     width: 100%;
-    background: #1F3A63;
-    padding: 15px 10%;
+    top: 0;
+    left: 0;
+    padding: 25px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: transparent;
+    transition: all 0.4s ease;
     z-index: 1000;
+}
+
+/* Navbar when scrolled */
+nav.scrolled {
+    background: #1F3A63;
+    padding: 15px 10%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 nav a {
@@ -48,6 +59,7 @@ nav a {
 nav a:hover {
     color: #D62828;
 }
+
 
 /* ===== Hero Section ===== */
 .hero {
